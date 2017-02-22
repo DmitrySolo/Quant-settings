@@ -1,0 +1,12 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2e1123db-1a9a-4639-8b80-5e2182691786" name="ZSERVER" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="Z:\WORK\PROJECTS\kit" accessType="MOUNT" />
+      </webServer>
+      <webServer id="667de34f-1e7f-49a5-9e72-616ac9622f9e" name="wp" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
