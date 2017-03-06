@@ -44,4 +44,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="media" value="@include for-size($END$){&#10;       &#10;      }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
