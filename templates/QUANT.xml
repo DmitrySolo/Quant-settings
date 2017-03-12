@@ -1,15 +1,15 @@
 <templateSet group="QUANT">
-  <template name="qse" value="@include space('element','$END$','')" shortcut="SPACE" toReformat="false" toShortenFQNames="true">
+  <template name="se" value="@include space('element','$END$','')" shortcut="SPACE" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="qsc" value="@include space('component','$END$','')" toReformat="false" toShortenFQNames="true">
+  <template name="sc" value="@include space('component','$END$','')" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="qsb" value="@include space('block','$END$','')" toReformat="false" toShortenFQNames="true">
+  <template name="sb" value="@include space('block','$END$','')" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -45,6 +45,16 @@
     </context>
   </template>
   <template name="media" value="@include for-size($END$){&#10;       &#10;      }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="anim" value="  @include a-set-frame(marker,$dur: 1.5s, $delay: 0s, $itter infinite,linear,$frames:(&#10;          0  :(left:30%,),&#10;          .5 :(left:60%),&#10;          1 :(left:30%)&#10;  ));" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="sm" value="@include space('module','$END$','')" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
