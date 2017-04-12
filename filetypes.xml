@@ -7,6 +7,7 @@
       <mapping pattern="info" type="PLAIN_TEXT" />
       <mapping pattern="index" type="PLAIN_TEXT" />
       <mapping pattern="RESOURCE STORRAGE" type="PLAIN_TEXT" />
+      <mapping ext="" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="data" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
