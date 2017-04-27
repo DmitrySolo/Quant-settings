@@ -5,6 +5,7 @@
       <mapping pattern="erer" type="JSON" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern="info" type="PLAIN_TEXT" />
+      <mapping pattern=".stamp" type="PLAIN_TEXT" />
       <mapping pattern="index" type="PLAIN_TEXT" />
       <mapping pattern="RESOURCE STORRAGE" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
