@@ -59,7 +59,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log('test$END$');" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="clo" value="console.log('test$END$');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
