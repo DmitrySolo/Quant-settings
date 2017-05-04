@@ -5,10 +5,10 @@
   <action id="Graph.ZoomOut">
     <keyboard-shortcut first-keystroke="subtract" />
   </action>
-  <action id="Macro.off_element">
-    <keyboard-shortcut first-keystroke="minus" />
-  </action>
-  <action id="Macro.s1">
+  <action id="Macro.add_element+enter">
     <keyboard-shortcut first-keystroke="equals" />
+  </action>
+  <action id="Macro.off_elem+enter">
+    <keyboard-shortcut first-keystroke="minus" />
   </action>
 </keymap>
