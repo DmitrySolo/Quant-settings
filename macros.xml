@@ -2,5 +2,22 @@
   <component name="ActionMacroManager">
     <macro name="blu" />
     <macro name="wer" />
+    <macro name="1">
+      <action id="RenameElement" />
+      <typing text-keycode="45:0;45:0">--</typing>
+    </macro>
+    <macro name="1212">
+      <action id="RenameElement" />
+      <action id="EditorCopy" />
+      <action id="EditorPaste" />
+      <typing text-keycode="45:0;45:0">--</typing>
+    </macro>
+    <macro name="s1">
+      <action id="RenameElement" />
+      <action id="EditorCopy" />
+      <action id="EditorBackSpace" />
+      <typing text-keycode="45:0;45:0">--</typing>
+      <action id="EditorPaste" />
+    </macro>
   </component>
 </application>
