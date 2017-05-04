@@ -1,8 +1,14 @@
 <keymap version="1" name="Default copy 0" parent="Mac OS X 10.5+">
+  <action id="Graph.ZoomIn">
+    <keyboard-shortcut first-keystroke="add" />
+  </action>
   <action id="Graph.ZoomOut">
     <keyboard-shortcut first-keystroke="subtract" />
   </action>
-  <action id="Macro.s1">
+  <action id="Macro.off_element">
     <keyboard-shortcut first-keystroke="minus" />
+  </action>
+  <action id="Macro.s1">
+    <keyboard-shortcut first-keystroke="equals" />
   </action>
 </keymap>
