@@ -1,8 +1,32 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="ConvertIndentsToTabs">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="Diff.FocusOppositePane" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="Macro.add_element+enter">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="Macro.off_elem+Enter(Fast)">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
