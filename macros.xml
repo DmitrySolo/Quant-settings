@@ -126,5 +126,14 @@
       <action id="EditorPaste" />
       <shortuct text="ENTER" />
     </macro>
+    <macro name="off_elem+Enter(Fast)">
+      <action id="RenameElement" />
+      <action id="EditorLeft" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <shortuct text="ENTER" />
+    </macro>
   </component>
 </application>

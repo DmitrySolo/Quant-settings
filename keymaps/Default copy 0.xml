@@ -8,7 +8,7 @@
   <action id="Macro.add_element+enter">
     <keyboard-shortcut first-keystroke="equals" />
   </action>
-  <action id="Macro.off_elem+enter">
+  <action id="Macro.off_elem+Enter(Fast)">
     <keyboard-shortcut first-keystroke="minus" />
   </action>
 </keymap>
