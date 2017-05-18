@@ -44,7 +44,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="media" value="@include for-size($END$){&#10;       &#10;      }" description="" toReformat="false" toShortenFQNames="true">
+  <template name="media" value="@include for-size(phone-only,tablet-p-up,tablet-l-up,desktop-up,big-desktop-up){&#10;              background-color: chocolate;&#10;          }" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -62,6 +62,11 @@
   <template name="cl" value="console.log('test$END$');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="igr" value="@include i-gradient(90,($bkgColor__baseButton,$end_color),$points:(65%),$type:'linear');" description="gradient mixin" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
     </context>
   </template>
 </templateSet>
