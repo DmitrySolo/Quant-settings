@@ -11,4 +11,10 @@
   <action id="Macro.off_elem+Enter(Fast)">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="Macro.search">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
 </keymap>
