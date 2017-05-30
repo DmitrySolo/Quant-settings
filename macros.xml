@@ -1,0 +1,8 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="search">
+      <action id="SearchEverywhere" />
+      <action id="EditorPaste" />
+    </macro>
+  </component>
+</application>
