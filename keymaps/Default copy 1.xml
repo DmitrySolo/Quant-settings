@@ -2,6 +2,9 @@
   <action id="ConvertIndentsToTabs">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
+  <action id="CreateLauncherScript">
+    <keyboard-shortcut first-keystroke="l" second-keystroke="space" />
+  </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
