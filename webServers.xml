@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7cb77433-4b1a-4d7f-8be2-4fdb0b96ae30" name="ove" url="http://ove-cfo.ru">
+        <fileTransfer host="ove-cfo.ru" port="22" rootFolder="/var/www/podpolkovnyk/data/www/ove-cfo.ru/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
