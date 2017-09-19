@@ -1,7 +1,4 @@
 <keymap version="1" name="Default copy 0" parent="Mac OS X 10.5+">
-  <action id="ConvertIndentsToTabs">
-    <keyboard-shortcut first-keystroke="c" second-keystroke="tab" />
-  </action>
   <action id="Graph.ZoomIn">
     <keyboard-shortcut first-keystroke="add" />
   </action>
