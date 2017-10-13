@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy 0" parent="Mac OS X 10.5+">
+  <action id="ConvertIndentsToTabs">
+    <mouse-shortcut keystroke="shift button142" />
+  </action>
   <action id="Graph.ZoomIn">
     <keyboard-shortcut first-keystroke="add" />
   </action>
