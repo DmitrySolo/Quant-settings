@@ -1,7 +1,12 @@
 <keymap version="1" name="Default copy 0" parent="Mac OS X 10.5+">
   <action id="ConvertIndentsToTabs">
     <mouse-shortcut keystroke="shift button142" />
+    <keyboard-shortcut first-keystroke="tab" second-keystroke="up" />
   </action>
+  <action id="EditorChooseLookupItemReplace" />
+  <action id="EditorIndentSelection" />
+  <action id="EditorTab" />
+  <action id="ExpandLiveTemplateByTab" />
   <action id="Graph.ZoomIn">
     <keyboard-shortcut first-keystroke="add" />
   </action>
@@ -13,6 +18,11 @@
   </action>
   <action id="Macro.off_elem+Enter(Fast)">
     <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="NextParameter" />
+  <action id="NextTemplateParameter" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
   </action>
   <action id="Uml.CollapseNodes" />
 </keymap>
